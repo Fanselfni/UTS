@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah pemrograman</title>
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fffffe;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: none;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: #4392af00;
+  top: 0; 
+  box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #001858;
+}
+
+.logo span {
+  color: #ffffff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #001858;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+h3 {
+  margin-top: 80px;
+  margin-left: 100px;
+  font-size: 50px;
+  width: 450px;
+  z-index: 1;
+}
+p {
+  margin-left: 100px;
+  width: 600px;
+  font-size: 25px;
+  z-index: 1;
+}
+
+footer {
+  color: #A7AAE1;
+  width: 100%;
+}
+
+footer {
+  background: #ffd803;
+  font-size: 10px;
+  text-align: left;
+  padding: 10px 0;
+  margin-top: auto;
+  z-index: 1;
+}
+.nailll2 {
+  position: absolute;
+  margin-left: 950px;
+  top: 50px;
+}
+.nailong {
+    margin-bottom: -10px;
+    z-index: -1;
+}
+.button {
+  position: fixed;
+  width: 200px;
+  height: 200px;
+}
+    </style>
+</head>
+<body>
+    <header>
+  <div class="logo">Teknologi Informasi</div>
+  <nav>
+    <ul>
+      <li><a href="index1.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="galleries.html">Galleries</a></li>
+      <li><a href="contact us.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+  <main><section class="Hello">
+            <h3 style="color: #001858;"> Halo, Saya Ilfan..</h3>
+    </section>
+    </main>
+    <main><section class="Paragraf">
+       <p style="color: #172c66;"> Ini website UTS yang akan berisikan about, galleries, contact, dan rate us. Dan website ini akan membahas terkait sejarah seorang programmer yang bernama Ada Lovelace yang disebut sebagai programmer pertama di dunia..</p>
+    </section>
+    </main>
+    <main>
+    <section>
+      <div class="nailll2"><img src="img/nail2.png" alt=""></div>
+    </section>
+    </main>
+    <main>
+    <section>
+      <div class="nailong"><img src="img/nailll.png" alt=""></div>
+    </section>
+    </main>
+    <audio id="Kissme" loop>
+        <source src="audio/Kiss Me.mp3" type="audio/mpeg">
+        </audio>
+        
+    <button onclick="toggleAudio()" id="btn">PLAY IN HERE</button>
+          
+    <script>
+    const audio = document.getElementById("Kissme");
+    const btn = document.getElementById("btn");
+
+    function toggleAudio() {
+      if (audio.paused) {
+        audio.play();
+        btn.textContent = "PAUSE IN HERE";
+      } else {
+        audio.pause();
+        btn.textContent = "PLAY IN HERE";      }
+    } </script>
+    <footer>
+      <p style="text-align: left;">&copy 2025</p>
+    </footer>
+</body>
+</html>

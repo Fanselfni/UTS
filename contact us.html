@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="design.css">
+    <style>
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fffffe;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: none;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+  background: #4392af00;
+  top: 0;
+  z-index: 100; 
+  box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #001858;
+  font-family: ;
+}
+
+.logo span {
+  color: #ffffff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #001858;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+footer {
+  color: #A7AAE1;
+  width: 100%;
+}
+
+.ada1 {
+    margin-left: 100px;
+    margin-top: 100px;
+    z-index: -1;
+}
+.ada2 {
+    margin-left: 420px;
+    margin-top: -305px;
+    z-index: 1;
+}
+.ada3 {
+    margin-left: 740px;
+    margin-top: -305px;
+}
+.ada4{
+    margin-left: 1060px;
+    margin-top: -305px;
+    height: 100px;
+}
+footer {
+  background: #ffd803;
+  font-size: 10px;
+  text-align: left;
+  padding: 10px 0;
+  margin-top: auto;
+  z-index: 1;
+}
+table {
+    border-color: #ffd803;
+    text-align: center;
+    margin-top: 50px;
+    width: 800px;
+    margin: auto;
+}
+fieldset {
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    border-color: #ffd803;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px  rgba(0, 0, 0, 0.1);
+    margin-top: 80px;
+}
+h2 {
+    text-align: center;
+}
+.kirim {
+    text-align: center;
+}
+
+.nailong {
+    margin-bottom: -10px;
+    z-index: -1;
+    margin-left: 475px;
+
+}
+
+.alamat {
+  position: absolute;
+  top: 180px;
+  left: 70px;
+  width: ;
+
+}
+    </style>
+</head>
+<body>
+    <header>
+  <div class="logo">Teknologi Informasi</div>
+  <nav>
+    <ul>
+      <li><a href="index1.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="galleries.html">Galleries</a></li>
+      <li><a href="contact us.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+    <fieldset>
+        <h2>Hubungi Kami </h2>
+            <form action="#" method="post">
+                <label for="name">Nama:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br>
+                <br>
+
+                <label for="No Telpon">No Telpon:</label><br>
+                <input type="No Telpon" id="No Telpon" name="No Telon" required><br>
+                <br>
+
+                Jenis kelamin : <input type="radio" name="JK" value="1"> Laki Laki
+                              : <input type ="radio" name="JK" value="2">Perempuan<br>
+                <br>
+
+                Penilaian anda terhadap web yang saya buat :<select>
+                                                         <option>Buruk</option>name
+                                                         <option>Cukup</option>
+                                                         <option>Baik</option>
+                                                         <option>Baik Sekali</option>
+                                                         </select><br>
+
+
+                <br>
+                Kepuasan :<input type="checkbox" name="Kepuasan" value="1">Puas
+                        <input type="checkbox" name="Kepuasan" value="1">Tidak Puas<br>
+
+                <br>
+
+                <label for="message">Pesan:</label><br>
+                <textarea id="message" name="message" rows="4" cols="100"></textarea><br><br>
+                <input type="file" name="attachment"><br><br>
+                <div class="kirim"><input type="submit" value="Kirim"></div>
+            </form>
+    </fieldset>
+    <iframe src="" frameborder="0"></iframe>
+    <section>
+      <div class="nailong"><img src="img/nailll.png" alt=""></div>
+    </section>
+    <div class="alamat">
+      <iframe src="https://maps.app.goo.gl/krK3B4ppkybmbcL16" frameborder="0"></iframe>
+    </div>
+    <footer>
+      <p style="text-align: left;">&copy 2025</p>
+    </footer>
+</body>
+</html>
